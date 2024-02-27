@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import "./App.css";
 
-
 function App() {
   const [uuid, setUuid] = useState(crypto.randomUUID());
   const [message, setMessage] = useState("");
